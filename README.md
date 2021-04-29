@@ -1,3 +1,4 @@
+
 # ECE4180Dashcam
 #### by Andrew Kim and Sidong Guo
 
@@ -22,6 +23,7 @@ A dashboard camera is an in-car camera that records continously interiors or sur
 
 ## PIN connections
 Raspberry Pi Peripherals 
+![MBED](https://user-images.githubusercontent.com/82831509/116631449-28e55600-a923-11eb-8fa1-a4f7719ab914.jpg)
 |Raspberry Pi|      |
 |------------|------|
 |  GPIO 4    | Mbed P?| 
