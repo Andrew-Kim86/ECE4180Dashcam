@@ -1,7 +1,8 @@
 # ECE4180Dashcam
 #### by Andrew Kim and Sidong Guo
 
-## Description
+## Introduction
+A dashboard camera is an in-car camera that records continously interiors or surroundings to provide reliable 24/7 surveillance, the goal of the project is to build a Mbed and Raspberry PI4 based dashcam that streams continously, saves videos and alerts during incidents. 
 
 ## Components
 * LPC1768 Mbed 
@@ -17,6 +18,7 @@
 * RGB LED
 * SPST DIP switch
 * ADXL345 Accelerometer
+* Pushbuttons 
 
 ## PIN connections
 Raspberry Pi Peripherals 
@@ -38,3 +40,5 @@ Mbed Peripherals
 |      |     |               |       ||
 | 5V   | 5V  |               |       ||
 | gnd  | gnd |               |       ||
+
+## Project details
