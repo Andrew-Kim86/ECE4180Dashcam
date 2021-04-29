@@ -23,7 +23,8 @@ A dashboard camera is an in-car camera that records continously interiors or sur
 
 ## PIN connections
 Raspberry Pi Peripherals 
-![MBED](https://user-images.githubusercontent.com/82831509/116631449-28e55600-a923-11eb-8fa1-a4f7719ab914.jpg)
+![MBED](https://user-images.githubusercontent.com/82831509/116631723-8f6a7400-a923-11eb-97dc-e1964e7295b3.jpg)
+
 |Raspberry Pi|      |
 |------------|------|
 |  GPIO 4    | Mbed P?| 
