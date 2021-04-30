@@ -44,4 +44,18 @@ Mbed Peripherals
 | 5V   | 5V  |               |       ||
 | gnd  | gnd |               |       ||
 
-## Project details
+## Project Details
+
+## Video Demonstration
+
+## Setup Instructions
+* Boot Raspberry Pi 4 with [PI4 Set up](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
+* Open terminal and enter the following command (Picamera should come pre-installed) 
+* sudo apt-get update
+* sudo apt-get install python-picamera python3-picamera
+* Load the dashcam.py with Python3 
+[Python Picamera Module](https://picamera.readthedocs.io/en/release-1.13/recipes1.html#recording-to-a-circular-stream)
+* Import the Mbed codes into your program
+* Connect all related Modules, refer to 'PIN connections'
+* Press Start on LPC1768 Mbed 
+* Use the DIP switch to control whether Camera Stream is on or off and the state of the car
