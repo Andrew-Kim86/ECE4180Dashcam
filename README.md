@@ -16,10 +16,8 @@ A dashboard camera is an in-car camera that records video for security and docum
 * Sparkfun PCB Speaker 
 * Sparkfun Class D audio amplifier 
 * LIDAR TOF Distance Sensor
-* RGB LED
 * SPST DIP switch
-* ADXL345 Accelerometer
-* Pushbuttons 
+* MMA8452 Accelerometer
 
 ## PIN connections
 Raspberry Pi Peripherals 
@@ -27,13 +25,14 @@ Raspberry Pi Peripherals
 
 |Raspberry Pi|      |
 |------------|------|
-|  GPIO 4    | Mbed P?| 
+|  GPIO 4    | Mbed P6| 
 |  GPIO 17   | DIP switch |
 |  GPIO 27   | RGB LED    |
 | 3.3V       |      |
 | gnd        |      |
 
 Mbed Peripherals
+![Project](https://user-images.githubusercontent.com/82831509/116728394-da33cc80-a9b3-11eb-926d-bfd39d7cca04.jpg)
 |Mbed  | LCD | Accelerometer | Lidar |Speaker| TPA2005D1 | pi    | On/Off |
 |----- |-----|---------------|-------|-------|-----------|-------|--------|
 | p5   |     |               |       |       |           |       | DIP1   |
