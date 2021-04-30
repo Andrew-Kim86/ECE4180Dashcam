@@ -31,7 +31,6 @@ Raspberry Pi Peripherals
 | 3.3V       |      |
 | gnd        |      |
 
-Mbed Peripherals
 ![Project](https://user-images.githubusercontent.com/82831509/116728394-da33cc80-a9b3-11eb-926d-bfd39d7cca04.jpg)
 |Mbed  | LCD | Accelerometer | Lidar |Speaker| TPA2005D1 | pi    | On/Off |
 |----- |-----|---------------|-------|-------|-----------|-------|--------|
@@ -52,7 +51,7 @@ Mbed Peripherals
 A switch indicates whether the car is ON or OFF. When the car is ON, and accelerometer experiences an abrupt change in velocity pertaining to a brake or an incident, a signal will be sent to the PI4. During the OFF state, if the car experiences a slight change in velocity or when the motion detector senses an approaching vehicle or human, indicating a displacement or potential incident, a signal will be sent to the PI4. Meanwhile, a speaker will make an alert and the LCD will indicate the number of incidents occured and other relevant information. A second switch controls if the camera module is ON or OFF, during ON state, camera records in a continuous stream, whenever a signal is detected from Mbed, the camera will save the previous 10 and next 5 seconds as a 1 min video which will likely include the occurrence of the incident. Each signal will create a separate video file. 
 ## Video Demonstration
 
-## Setup Instructions
+## Pi Setup Instructions
 * Boot Raspberry Pi 4 with [PI4 Set up](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
 * Open terminal and enter the following command (Picamera should come pre-installed) 
 * sudo apt-get update
@@ -62,4 +61,3 @@ A switch indicates whether the car is ON or OFF. When the car is ON, and acceler
 * Import the Mbed codes into your program
 * Connect all related Modules, refer to 'PIN connections'
 * Press Start on LPC1768 Mbed 
-* Use the DIP switch to control whether Camera Stream is on or off and the state of the car
