@@ -33,21 +33,21 @@ Raspberry Pi Peripherals
 | 3.3V       |      |
 | gnd        |      |
 
-Mbed Peripherals connected to Pi
-![Project](https://user-images.githubusercontent.com/82831509/116727731-eff4c200-a9b2-11eb-8bb3-df78151d3a05.jpg)
-
-|Mbed  | LCD | Accelerometer | Lidar |Speaker|
-|----- |-----|---------------|-------|-------|
-| p5   |     |               |       |       |
-| p9   | Rx  |               |       |       |
-| p10  | Tx  |               |       |       |
-| p11  | Res |               |       |       |
-| p26  |     |               | SHDN  |       |
-| p27  |     | SCL           | SCL   |       |
-| p28  |     | SDA           | SDA   |       |
-| 3.3V |     | 3.3V          | Vin   |       |
-| 5V   | 5V  |               |       |       |
-| GND  | GND |               | GND   |       |
+Mbed Peripherals
+|Mbed  | LCD | Accelerometer | Lidar |Speaker| TPA2005D1 | pi    | On/Off |
+|----- |-----|---------------|-------|-------|-----------|-------|--------|
+| p5   |     |               |       |       |           |       | DIP1   |
+| p6   |     |               |       |       |           | GPIO4 |        |
+| p9   | Rx  |               |       |       |           |       |        |
+| p10  | Tx  |               |       |       |           |       |        |
+| p11  | Res |               |       |       |           |       |        |
+| p21  |     |               |       |       | in+       |       |        |
+| p26  |     |               | SHDN  |       |           |       |        |
+| p27  |     | SCL           | SCL   |       |           |       |        |
+| p28  |     | SDA           | SDA   |       |           |       |        |
+| 3.3V |     | 3.3V          | Vin   |       |           |       |        |
+| 5V   | 5V  |               |       |       | pwr+      |       |        |
+| GND  | GND |               | GND   |       | pwr-, in- |       |        |
 
 ## Project Details
 A switch indicates whether the car is ON or OFF. When the car is ON, and accelerometer experiences an abrupt change in velocity pertaining to a brake or an incident, a signal will be sent to the PI4. During the OFF state, if the car experiences a slight change in velocity or when the motion detector senses an approaching vehicle or human, indicating a displacement or potential incident, a signal will be sent to the PI4. Meanwhile, a speaker will make an alert and the LCD will indicate the number of incidents occured and other relevant information. A second switch controls if the camera module is ON or OFF, during ON state, camera records in a continuous stream, whenever a signal is detected from Mbed, the camera will save the previous 30 and next 30 seconds as a 1 min video which will likely include the occurrence of the incident. Each signal will create a separate video file. 
