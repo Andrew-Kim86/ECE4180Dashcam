@@ -33,7 +33,9 @@ Raspberry Pi Peripherals
 | 3.3V       |      |
 | gnd        |      |
 
-Mbed Peripherals
+Mbed Peripherals connected to Pi
+![Project](https://user-images.githubusercontent.com/82831509/116727731-eff4c200-a9b2-11eb-8bb3-df78151d3a05.jpg)
+
 |Mbed  | LCD | Accelerometer | Lidar |Speaker|
 |----- |-----|---------------|-------|-------|
 | p5   |     |               |       |       |
