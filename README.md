@@ -45,7 +45,7 @@ Mbed Peripherals
 | gnd  | gnd |               |       ||
 
 ## Project Details
-
+A switch indicates whether the car is ON or OFF. When the car is ON, and accelerometer experiences an abrupt change in velocity pertaining to a brake or an incident, a signal will be sent to the PI4. During the OFF state, if the car experiences a slight change in velocity or when the motion detector senses an approaching vehicle or human, indicating a displacement or potential incident, a signal will be sent to the PI4. A second switch controls if the camera module is ON or OFF, during ON state, camera records in a continuous stream, whenever a signal is detected from Mbed, the camera will save the previous 30 and next 30 seconds as a 1 min video which will likely include the occurrence of the incident. Each signal will create a separate video file. 
 ## Video Demonstration
 
 ## Setup Instructions
