@@ -21,8 +21,7 @@ A dashboard camera is an in-car camera that records video for security and docum
 
 ## PIN connections
 ### Raspberry Pi Peripherals 
-<img src="https://user-images.githubusercontent.com/82831509/116631723-8f6a7400-a923-11eb-97dc-e1964e7295b3.jpg" alt="PI" style="width:4
-00px;"/>
+<img src="https://user-images.githubusercontent.com/82831509/116631723-8f6a7400-a923-11eb-97dc-e1964e7295b3.jpg" alt="PI" style="width:300px;"/>
 <p>Camera Module and one signal pin in connected to the pi as well as supporting power supply and display.</p>
 
 |Raspberry Pi|            |
@@ -33,7 +32,7 @@ A dashboard camera is an in-car camera that records video for security and docum
 <p></p>
 
 ### MBED Peripherals
-<img src="https://user-images.githubusercontent.com/82831509/116728394-da33cc80-a9b3-11eb-926d-bfd39d7cca04.jpg" alt="Project" style="width:4
+<img src="https://user-images.githubusercontent.com/82831509/116728394-da33cc80-a9b3-11eb-926d-bfd39d7cca04.jpg" alt="Project" style="width:3
 00px;"/>
 <p>Mbed connected to all other peripherals and PI.</p>
 <br>
@@ -78,6 +77,7 @@ A dashboard camera is an in-car camera that records video for security and docum
 <p>In this demonstration version of the dashcam, the PI and mbed are connected to a PC. Additionally the PI is connected to the PC to display the video. In a completed project, the PI and mbed would need to be connected to car power and the car state would need to be connected to an electrical item in the car that is only on when the car is on such as a 12V jack. Some packaging would have to be done to make it more compact. Other modification include increasing the threshold for the acceleration and LIDAR sensors to be more inline with the actual incidents. Video length can also be modified. The SD in the PI would need to be removed to view the video.</p>
 
 ## Video Demonstration
+
 <figure class="video_container">
   <iframe src="https://youtu.be/YxSZItViBIs" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
