@@ -78,9 +78,7 @@ A dashboard camera is an in-car camera that records video for security and docum
 
 ## Video Demonstration
 
-<figure class="video_container">
-  <iframe src="https://youtu.be/YxSZItViBIs" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YxSZItViBIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Pi Setup Instructions
 * Boot Raspberry Pi 4 with [PI4 Set up](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)
